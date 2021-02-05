@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1340
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introdution To MVC", "Introdution To MVC\Introdution To MVC.csproj", "{8F88AA89-C386-440C-849F-BEE837235D8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC From Scratch", "MVC From Scratch\MVC From Scratch.csproj", "{8516DE94-A37D-4747-BF82-9E31B09F50C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F88AA89-C386-440C-849F-BEE837235D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F88AA89-C386-440C-849F-BEE837235D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F88AA89-C386-440C-849F-BEE837235D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F88AA89-C386-440C-849F-BEE837235D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8516DE94-A37D-4747-BF82-9E31B09F50C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8516DE94-A37D-4747-BF82-9E31B09F50C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8516DE94-A37D-4747-BF82-9E31B09F50C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8516DE94-A37D-4747-BF82-9E31B09F50C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFE419B9-0628-4C5A-B787-6DA3A5D45506}
+	EndGlobalSection
+EndGlobal
