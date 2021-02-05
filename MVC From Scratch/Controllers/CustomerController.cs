@@ -19,5 +19,11 @@ namespace WebApplication1.Controllers
 
             return View(customer);
         }
+
+        public ActionResult Create()
+        {
+            var cust = new CustomerModel() ;
+            return View(cust);
+        }
     }
 }

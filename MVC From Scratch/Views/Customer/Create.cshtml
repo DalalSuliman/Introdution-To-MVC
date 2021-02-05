@@ -1,0 +1,28 @@
+﻿@model WebApplication1.Models.CustomerModel
+
+<table style="margin-top:100px">
+    <tr>
+        <td>@Html.Label("id", "Customer ID")</td>
+        <td>@Html.TextBox("CustomerID")</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("name", "Customer Name")</td>
+        <td>@Html.TextBox("name")</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Age", "Customer Age")</td>
+        <td>@Html.TextBox("Age")</td>
+    </tr>
+
+    <tr>
+        <td>@Html.Label("Adrees", "Customer Address")</td>
+        <td>@Html.TextArea("Adress")</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("state", "Customer State")</td>
+        <td>@Html.RadioButton("work","Working",true)
+            @Html.RadioButton("work","Not Working",false)</td>
+    </tr>
+</table>
+
+@Html.ActionLink("Click to show more Detail","DisplayCustomer")

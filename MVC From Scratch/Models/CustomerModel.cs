@@ -11,6 +11,9 @@ namespace WebApplication1.Models
         public string Name { get; set; }
         public int Age { get; set; }
         public string Address { get; set; }
+        public CustomerModel()
+            {
+            }
         public CustomerModel (int id , string name , int age , string address)
         {
             ID = id;
